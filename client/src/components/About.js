@@ -36,7 +36,7 @@ function About() {
                 <span className="text-danger"> MongoDB</span>
               </li>
             </ul>
-            <b>Deployed Using</b> <span className="text-danger">TBD</span>
+            <b>Deployed Using</b> <span className="text-danger">Vercel</span>
           </div>
         </div>
       </ul>
