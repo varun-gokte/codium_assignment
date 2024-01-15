@@ -15,9 +15,7 @@ const server = require("http").Server(app);
 
 app.use(
   cors({
-    origin: [
-      "https://65a4dc4b3ee3e105cefcbdea--super-crisp-86304b.netlify.app",
-    ],
+    origin: ["https://main--stellar-profiterole-61a26c.netlify.app"],
   })
 );
 
