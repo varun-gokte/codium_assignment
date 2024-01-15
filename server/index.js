@@ -16,7 +16,7 @@ const server = require("http").Server(app);
 app.use(
   cors({
     origin: [
-      "https://65a4d730e7ac410b4bc30c80--spontaneous-hamster-eac07b.netlify.app",
+      "https://65a4dc4b3ee3e105cefcbdea--super-crisp-86304b.netlify.app",
     ],
   })
 );
