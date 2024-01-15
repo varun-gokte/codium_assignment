@@ -15,7 +15,9 @@ const server = require("http").Server(app);
 
 app.use(
   cors({
-    origin: ["https://radiant-cassata-6d42d4.netlify.app/"],
+    origin: [
+      "https://65a4d730e7ac410b4bc30c80--spontaneous-hamster-eac07b.netlify.app/",
+    ],
   })
 );
 
