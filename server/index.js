@@ -13,7 +13,11 @@ mongoose.connect(process.env.mongodbkey, console.log("Connected to database"));
 
 const server = require("http").Server(app);
 
-app.use(cors());
+app.use(
+  cors({
+    origin: ["https://radiant-cassata-6d42d4.netlify.app/"],
+  })
+);
 
 app.use(express.json());
 
