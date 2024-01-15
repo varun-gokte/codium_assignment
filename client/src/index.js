@@ -5,9 +5,8 @@ import { BrowserRouter } from "react-router-dom";
 
 export const Context = React.createContext();
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
 const URL = "https://savings-calculator-snowy.vercel.app";
-
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Context.Provider value={URL}>
     <BrowserRouter>
