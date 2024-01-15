@@ -16,7 +16,7 @@ const server = require("http").Server(app);
 app.use(
   cors({
     origin: [
-      "https://65a4d730e7ac410b4bc30c80--spontaneous-hamster-eac07b.netlify.app",
+      "https://65a4d730e7ac410b4bc30c80--spontaneous-hamster-eac07b.netlify.app ",
     ],
   })
 );
@@ -333,7 +333,7 @@ app.get("/savings", verifyJWT, (req, res) => {
   User.findById(userid)
     .then((user) => {
       if (user) {
-        const savings = user.total_expense - user.total_income;
+        const savings = user.total_income - user.total_expense;
         res.json({
           message: "SUCCESS",
 
